@@ -5,112 +5,113 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Assingnment3V2
 build_property.RootNamespace = Assingnment3V2
-build_property.ProjectDir = C:\Users\chase\OneDrive\Documents\Projects\School\521\Assignment_3\Assignment_3_V2\Assingnment3V2\
+build_property.ProjectDir = c:\Users\chase\OneDrive\Documents\Projects\School\521\Assignment_3\Assignment_3_V2\Assingnment3V2\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\chase\OneDrive\Documents\Projects\School\521\Assignment_3\Assignment_3_V2\Assingnment3V2
+build_property.MSBuildProjectDirectory = c:\Users\chase\OneDrive\Documents\Projects\School\521\Assignment_3\Assignment_3_V2\Assingnment3V2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Areas/Identity/Pages/_ViewStart.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/ActorMovie/Create.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/ActorMovie/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JNb3ZpZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/ActorMovie/Delete.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/ActorMovie/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JNb3ZpZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/ActorMovie/Details.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/ActorMovie/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JNb3ZpZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/ActorMovie/Edit.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/ActorMovie/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JNb3ZpZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/ActorMovie/Index.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/ActorMovie/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JNb3ZpZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Actor/Create.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Actor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Actor/Delete.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Actor/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Actor/Details.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Actor/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Actor/Edit.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Actor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Actor/Index.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Actor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Home/Index.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Home/Privacy.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Movie/Create.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Movie/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Movie/Delete.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Movie/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Movie/Details.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Movie/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Movie/Edit.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Movie/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Movie/Index.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Movie/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Shared/Error.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Shared/_HeaderPartial.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Shared/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/_ViewImports.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/_ViewStart.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Shared/_Layout.cshtml]
+[c:/Users/chase/OneDrive/Documents/Projects/School/521/Assignment_3/Assignment_3_V2/Assingnment3V2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ehiv0pd1kc
