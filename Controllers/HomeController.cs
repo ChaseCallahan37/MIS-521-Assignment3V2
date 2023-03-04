@@ -1,12 +1,14 @@
 ﻿using Assignment_3V2.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Assignment_3V2.Data;
 
 namespace Assingnment3V2.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
 
         public HomeController(ILogger<HomeController> logger)
         {

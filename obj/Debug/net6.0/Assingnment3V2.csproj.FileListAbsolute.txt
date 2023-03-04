@@ -80,3 +80,5 @@ C:\Users\chase\OneDrive\Documents\Projects\School\521\Assignment_3\Assignment_3_
 C:\Users\chase\OneDrive\Documents\Projects\School\521\Assignment_3\Assignment_3_V2\Assingnment3V2\bin\Debug\net6.0\Tweetinvi.WebLogic.dll
 C:\Users\chase\OneDrive\Documents\Projects\School\521\Assignment_3\Assignment_3_V2\Assingnment3V2\bin\Debug\net6.0\Tweetinvi.dll
 C:\Users\chase\OneDrive\Documents\Projects\School\521\Assignment_3\Assignment_3_V2\Assingnment3V2\bin\Debug\net6.0\VaderSharp2.dll
+C:\Users\chase\OneDrive\Documents\Projects\School\521\Assignment_3\Assignment_3_V2\Assingnment3V2\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\chase\OneDrive\Documents\Projects\School\521\Assignment_3\Assignment_3_V2\Assingnment3V2\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll

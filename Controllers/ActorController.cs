@@ -84,7 +84,7 @@ namespace Assignment_3V2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Gender,IMBDLink,Image")] Actor actor, IFormFile photo)
+        public async Task<IActionResult> Create([Bind("Id,Name,Age,Gender,IMBDLink,Image")] Actor actor, IFormFile photo)
         {
             if (ModelState.IsValid)
             {

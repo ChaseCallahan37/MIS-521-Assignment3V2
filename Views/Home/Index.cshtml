@@ -3,6 +3,11 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <h2 class="home-title">Welcome to your online movie dictionary!</h2>
+    <p class="home-title-caption">You have three options to choose from</p>
+    <div class="row-container">
+    <a class="home-link" asp-area="" asp-controller="Movie" asp-action="Index">Movies</a>
+        <a class="home-link" asp-area="" asp-controller="Actor" asp-action="Index">Actors</a>
+        <a class="home-link" asp-area="" asp-controller="ActorMovie" asp-action="Index">Actor Movie</a>
+    </div>
+    </div>

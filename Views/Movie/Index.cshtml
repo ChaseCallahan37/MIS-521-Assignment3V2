@@ -4,12 +4,12 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Movies</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="tweeter-table">
     <thead>
         <tr>
             <th>
@@ -24,17 +24,20 @@
             <th>
                 @Html.DisplayNameFor(model => model.ReleaseYear)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Poster)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr >
             <td>
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IMBDLink)
+                <a target="_blank" href="@item.IMBDLink">@item.IMBDLink</a>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Genre)
@@ -42,6 +45,12 @@
             <td>
                 @Html.DisplayFor(modelItem => item.ReleaseYear)
             </td>
+             @if (item.Poster != null)
+                {
+                    <td>
+                    <img class="item-list-image" src="@Url.Action("GetMoviePhoto","Movie", new {item.Id})" />
+                    </td>
+                }
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |

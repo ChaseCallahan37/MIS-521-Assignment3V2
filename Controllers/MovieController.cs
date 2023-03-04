@@ -80,7 +80,7 @@ namespace Assignment_3V2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,IMBDLink,Genre,ReleaseDate,Poster")] Movie movie, IFormFile poster)
+        public async Task<IActionResult> Create([Bind("Id,Title,IMBDLink,Genre,ReleaseYear,Poster")] Movie movie, IFormFile poster)
         {
             if (ModelState.IsValid)
             {
@@ -119,7 +119,7 @@ namespace Assignment_3V2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,IMBDLink,Genre,ReleaseYear")] Movie movie, IFormFile poster)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,IMBDLink,Genre,ReleaseYear,Poster")] Movie movie, IFormFile poster)
         {
 
 

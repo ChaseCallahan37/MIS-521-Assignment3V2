@@ -9,11 +9,14 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="tweeter-table">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Gender)
@@ -34,16 +37,21 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Gender)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IMBDLink)
+                <a target="_blank" href="@item.IMBDLink">@item.IMBDLink</a>
             </td>
                 @if (item.Image != null)
                 {
-                    <img src="@Url.Action("GetActorPhoto","Actor", new {item.Id})" />
+                    <td>
+                    <img class="item-list-image" src="@Url.Action("GetActorPhoto","Actor", new {item.Id})" />
+                    </td>
                 }
-                <td>
+            <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>

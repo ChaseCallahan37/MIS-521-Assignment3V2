@@ -6,7 +6,7 @@ html {
   transform-box: border-box;
   color: #2b2d42;
   position: absolute;
-  top: 10%;
+  top: 15%;
   width: 100%;
   /*
     light white
@@ -67,7 +67,7 @@ image {
   width: 30%;
 }
 
-.col-full {
+.col-md {
   width: 50%;
 }
 
@@ -87,6 +87,7 @@ image {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -146,6 +147,12 @@ image {
   border-radius: 10%;
 }
 
+.item-list-image {
+  height: 5em;
+  width: 5em;
+  border-radius: 100%;
+}
+
 /* 
     Tweet Table
 */
@@ -163,4 +170,93 @@ image {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1em;
+}
+
+/* Home */
+/*Make some styles that when applied to a div container
+will make all objects appear as though they are in a pie chart*/
+
+.home-title-caption {
+  margin-bottom: 3em;
+}
+
+.home-title {
+  text-transform: capitalize;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-link:visited {
+  color: rgb(12, 52, 58);
+}
+
+.home-link {
+  font-size: 2rem;
+  color: rgb(12, 52, 58);
+  text-decoration: none;
+  background-color: #edcbc5;
+  padding: 0.7em 1.75em;
+  border-radius: 2em;
+}
+
+.home-link:hover {
+  animation: pulse 2s infinite, grow 2s infinite;
+  animation-fill-mode: forwards;
+}
+
+/* Create a css style to transform the div here to rise up
+toward the user on hover for the home-item-container class */
+
+.home-item-container {
+  /* background-color: #f8edeb; */
+  background-color: #edcbc5;
+  padding: 1em 2.5em;
+  border-radius: 2em;
+}
+
+.home-item-container:hover {
+  /* transform: scale(1.1); */
+  /* background-color: #000; */
+  /* animation: pulse 2s infinite; */
+  animation: pulse 2s infinite, grow 2s infinite;
+  animation-fill-mode: forwards;
+}
+
+/* Keyframes */
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    text-shadow: 0px 0px 5px rgba(41, 35, 35, 0.734);
+  }
+  100% {
+    text-shadow: 2px 2px 8px rgba(41, 35, 35, 0.734);
+  }
+}
+
+/* create a keyframe that pulses with box shadows*/
+@keyframes pulse {
+  0% {
+    box-shadow: 0px 0px 5px black;
+  }
+  50% {
+    box-shadow: 0px 0px 50px red;
+  }
+  100% {
+    box-shadow: 0px 0px 0px black;
+  }
 }

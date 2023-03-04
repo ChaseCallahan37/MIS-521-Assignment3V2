@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[6.0.13, )"
             },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "TweetinviAPI": {
               "target": "Package",
               "version": "[5.0.4, )"

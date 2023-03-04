@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9zLE8yU2NUQ+N8sAUw2YKiaKlnsH4Jtv8Zt8HRnP0ijAj4ZDU8b90uKCGE9gt5HUpDXUA0lYvpE4coZRdBe3tA==",
+  "dgSpecHash": "TZGiauBRhwD9zHXAx05S337Uf1WX5JzBYi0ragGSe1v/AfVj8TTu4k1cwmq0N8gAzggwE6w6C/fDBS6v5I4/dw==",
   "success": true,
   "projectFilePath": "C:\\Users\\chase\\OneDrive\\Documents\\Projects\\School\\521\\Assignment_3\\Assignment_3_V2\\Assingnment3V2\\Assingnment3V2.csproj",
   "expectedPackageFiles": [
@@ -44,7 +44,9 @@
     "C:\\Users\\chase\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\chase\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\chase\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\chase\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
     "C:\\Users\\chase\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\chase\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.1\\pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",
     "C:\\Users\\chase\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\chase\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\chase\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
