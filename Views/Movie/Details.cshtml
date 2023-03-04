@@ -16,7 +16,7 @@
 
     </div>
             <p class="detail-info"><strong>Title: </strong>@Html.DisplayFor(model => model.Movie.Title)</p>
-        <p class="detail-info"><strong>IMBD: </strong><a href="https://www.imdb.com/title/tt0162222/" target="_blank">@Html.DisplayFor(model => model.Movie.IMBDLink)</a></p>
+        <p class="detail-info"><strong>IMBD: </strong><a href=@Model.Movie.IMBDLink target="_blank">@Html.DisplayFor(model => model.Movie.IMBDLink)</a></p>
         <p class="detail-info"><strong>Genre: </strong>@Html.DisplayFor(model => model.Movie.Genre)</p>
         <p class="detail-info"><strong>Release Date: </strong>@Html.DisplayFor(model => model.Movie.ReleaseYear)</p>
         <p class="detail-info"><strong>Twitter Sentiment Score: </strong>@Html.DisplayFor(model => model.TweetWrapper.TotalSentiment)</p>

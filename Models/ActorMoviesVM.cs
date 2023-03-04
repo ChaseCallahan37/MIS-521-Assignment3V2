@@ -7,6 +7,6 @@ namespace Assignment_3V2.Models
         public Actor Actor { get; set; }
         public List<Movie> Movies { get; set; }
 
-        public List<InternalTweet> Tweets { get; set; }
+       public TweetWrapper TweetWrapper { get; set; }
     }
 }

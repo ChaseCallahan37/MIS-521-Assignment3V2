@@ -53,9 +53,10 @@ namespace Assignment_3V2.Controllers
 
             //Searches through db for movies that are associated
             actorMoviesVM.Movies = await _context.ActorMovie.Where(am => am.Actor.Id == actor.Id).Select(am => am.Movie).ToListAsync();
-            
+
             //Searches twitter for tweets
-            actorMoviesVM.Tweets = await _tweetWrapper.GetTweetsAsync(actor);
+            await _tweetWrapper.GetTweetsAsync(actor);
+            actorMoviesVM.TweetWrapper = (TweetWrapper)_tweetWrapper;
 
             return View(actorMoviesVM);
         }
@@ -134,7 +135,7 @@ namespace Assignment_3V2.Controllers
             {
                 ModelState.Remove("Image");
                 var actorDb = await _context.Actor.AsNoTracking().FirstOrDefaultAsync(a => a.Id == id);
-                actor.Image = actorDb.Poster;
+                actor.Image = actorDb.Image;
 
               //  ModelState.Remove("image");
               //  _context.Entry(actor).Property("Image").IsModified = false;
