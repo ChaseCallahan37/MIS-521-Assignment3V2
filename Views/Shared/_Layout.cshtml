@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Assignment_3V2</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css" integrity="sha384-nlqJt7hgTYzEtpwtccFUVNZPXLN4pJoZ/QIfCtAIK9txm0dVyw/lz/47SslwYLPj" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Assignment_3V2.styles.css" asp-append-version="true" />
+</head>
+<body id="main-body">
+    <partial name="_HeaderPartial"/>
+   
+    <div class="container">
+        <main role="main" class="pb-3 main-body">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - Assignment_3V2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js" integrity="sha384-mj7dH3gbaPZgpfQm0xxNKrdul/K/X8jZgbL5ubHVRpDqg5adSZ/P+KRrFYX5dOxF" crossorigin="anonymous"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
