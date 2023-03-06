@@ -26,8 +26,6 @@ namespace Assignment_3V2.Controllers
         // GET: Actor
         public async Task<IActionResult> Index()
         {
-            System.Console.WriteLine("TEST");
-            var actors = await _context.Actor.ToListAsync();
              return View(await _context.Actor.ToListAsync());
         }
 
